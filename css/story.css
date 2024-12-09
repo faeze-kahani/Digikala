@@ -1,0 +1,85 @@
+div.mainStorydigakalaa {
+  width: 100%;
+  height: 174px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+div.storySlide {
+  width: 90%;
+  height: inherit;
+  background-color: red;
+}
+div.mainStorydigakalaa {
+  width: 100%;
+  height: 175px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.mainStory {
+  width: 100%;
+  height: 175px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+div.mainStory > div.story {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+div.mainStory > div.story > div.image {
+  width: 80px;
+  height: 80px;
+}
+div.mainStory > div.story > div.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  outline: 2px solid purple;
+  outline-offset: 2px;
+}
+div.mainStory > div.story > div.title {
+  width: 100%;
+  height: 50%;
+  font-family: iranYekan;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  font-size: 13px;
+}
